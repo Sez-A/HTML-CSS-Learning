@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica', sans-serif;
+}
+
+section {
+   width: 45%;
+   margin: 15px auto;
+   background-color: #E2E1E1;
+   padding: 40px;
+}
+
+section h3 { 
+    text-align: center;
+    font-size: 30px;
+    color: #203C6E;
+}
+
+section ol li {
+    font-size: 20px;
+    border-bottom:1px solid black;
+    padding: 5px;
+    color: #373737;
+}
