@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEFF3;
+}
+
+header>section {
+    width: 90%;
+    margin: 0px auto;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.navigation {
+    margin-left: 50%;
+}
+
+.nav-container i {
+    font-size: 25px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #F85E10;
+} 
+
+nav p {
+    color: #F85E10;
+}
+
+header section:nth-child(2) {
+    background: url("../Requirements-and-Resources/Images/picture.jpg");
+    background-size: cover;
+    height: 350px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+header section:nth-child(2) p {
+    color: #EEEFF3;
+    font-size: 35px;
+    width: 63%;
+    margin: 0 auto;
+}
+
+header section:nth-child(2) p span {
+    color: #F85E10;
+}
+
+header section:nth-child(2) button {
+    background-color: #F85E10;
+    color: #EEEFF3;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+}
+
+header section:nth-child(2) button:hover {
+    background-color: #EEEFF3;
+    color: #F85E10;
+    border: none;
+}
+
+main {
+    color: #EEEFF3;
+    text-align: center;
+}
+
+main article {
+    width: 295px;   
+    display: inline-block;
+    padding: 30px 60px;
+    background: #f9690e;
+    color: white;
+  } 
+
+main p {
+    padding: 10px;
+    margin: 8px auto;
+    text-align: center;
+}
+
+footer {
+  margin-left: 61px;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer {
+    display: inline;
+    margin-left: 680px;
+    letter-spacing: 10px;
+    font-size: 20px;
+}
