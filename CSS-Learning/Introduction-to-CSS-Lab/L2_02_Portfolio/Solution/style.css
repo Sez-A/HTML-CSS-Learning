@@ -41,13 +41,18 @@ nav ul li i {
     padding-bottom: 20px;
 }
 
+main {
+    display: flex; /* Use flexbox to align the sections */
+}
+
 main > section {
-    width: 32.5%;
+    width: 40%;
     padding: 60px;
     display: inline-block;
     background-color: #4B5264;
     color: #A9ADB8;
     padding-bottom: 5px;
+    box-sizing: border-box;
 }
 
 .skills {
@@ -65,11 +70,10 @@ main > section > p {
 }
 
 main section:nth-child(2) {
-    margin: 0 auto;
-    padding: 0 auto;
-    background-color: #04B5B6;;
+    width: 60%;
     color: white;
-    display: inline-block;
+    background-color: #04B5B6;;
+    vertical-align: top;
 }
 
 img {
